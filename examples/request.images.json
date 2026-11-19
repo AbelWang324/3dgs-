@@ -1,0 +1,8 @@
+{
+  "job_id": "recon-static-001",
+  "attempt_id": "attempt-001",
+  "input_kind": "images",
+  "input_path": "input/photos",
+  "rules_version": "static3dgs-v1",
+  "quality_profile": "standard"
+}

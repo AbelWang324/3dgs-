@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "status": "failed",
+  "job_id": "recon-static-001",
+  "attempt_id": "attempt-001",
+  "stage": "sfm",
+  "error": {
+    "code": "SFM_INSUFFICIENT_REGISTRATION",
+    "message": "Registered 19 of 80 views. Capture sharper frames with more viewpoint overlap."
+  },
+  "duration_seconds": 31.04
+}

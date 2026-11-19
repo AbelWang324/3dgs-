@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "status": "succeeded",
+  "job_id": "recon-static-001",
+  "attempt_id": "attempt-001",
+  "provenance": "captured_reconstruction",
+  "algorithm_version": "splatfacto/1.1.5+gsplat/1.4.0",
+  "worker_version": "1.0.0",
+  "rules_version": "static3dgs-v1",
+  "quality_profile": "standard",
+  "duration_seconds": 321.456,
+  "input": {
+    "kind": "images",
+    "file_count": 80,
+    "frame_count": 80,
+    "registered_views": 75
+  },
+  "artifacts": [
+    {
+      "path": "out/scene.ply",
+      "format": "inria_gaussian_ply",
+      "encoding": "binary_little_endian",
+      "sh_degree": 3,
+      "coordinate_system": "nerfstudio_normalized_z_up",
+      "size_bytes": 24801628,
+      "gaussian_count": 100000,
+      "sha256": "1111111111111111111111111111111111111111111111111111111111111111"
+    }
+  ]
+}
