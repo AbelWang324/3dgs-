@@ -73,3 +73,5 @@ python -m recon_worker --request ./runs/attempt-001/request.json --work-dir ./ru
 | 一段 MP4 | 32/32 | 181,413 | [44.99 MB](runs/rtx3060-video/out/scene.ply) | [结果 JSON](runs/rtx3060-video/worker_result.json) |
 
 这台机器已保留本地依赖。要在同一机器复跑，从本目录执行 `& ./.runtime/run_attempt.ps1 -Attempt ./runs/new-attempt`。先在新目录放好 `input/` 与 `request.json`。以上用例验证了 Windows 原生执行和文件格式，Linux 容器与项目 Web Viewer 仍需联调。
+
+现在还只是demo
